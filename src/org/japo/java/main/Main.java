@@ -39,7 +39,7 @@ public class Main {
             System.out.printf(Locale.ENGLISH, "%s%.2f%n", "Mi altura es ......: ", altura);
         } catch (Exception e) {
 
-            System.out.println("ERROR: Altura incorrecta.");
+            System.out.println("ERROR: Entrada incorrecta.");
         } finally {
 
             SCN.nextLine();
